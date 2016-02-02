@@ -5,7 +5,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-@include foundation-grid;
+// @include foundation-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -44,9 +45,7 @@
 @include motion-ui-animations;
 
 #header-logo {
-  width: rem-calc(200);
-  display: block;
-  margin: 0 auto;
+  width: rem-calc(100);
 }
 
 .top-bar a {
