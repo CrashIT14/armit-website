@@ -42,3 +42,9 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+#header-logo {
+  width: rem-calc(200);
+  display: block;
+  margin: 0 auto;
+}
