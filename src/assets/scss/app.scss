@@ -60,6 +60,24 @@ header {
   color: #000;
 }
 
+.color-row {
+  margin: rem-calc(50) 0;
+}
+
+#quick-link-row {
+  height: rem-calc(250);
+}
+
+#quick-link-row ul {
+  list-style-type: none;
+}
+
+#partner-row img {
+  width: rem-calc(250);
+  height: auto;
+  margin-bottom: rem-calc(30);
+}
+
 .larger-icon {
   font-size: rem-calc(100);
   color: $primary-color;
