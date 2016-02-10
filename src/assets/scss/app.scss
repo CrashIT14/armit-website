@@ -44,6 +44,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+$footer-height: 300;
+
 .header-logo {
   width: rem-calc(100);
 }
@@ -81,4 +83,20 @@ header {
 .larger-icon {
   font-size: rem-calc(100);
   color: $primary-color;
+}
+
+footer {
+  background-color: #1C4E58;
+  min-height: rem-calc($footer-height);
+  color: white;
+  margin-bottom: 0;
+}
+
+footer .row {
+  min-height: rem-calc($footer-height);
+}
+
+footer img {
+  width: rem-calc(150);
+  height: auto;
 }
