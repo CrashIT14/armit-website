@@ -1,0 +1,22 @@
+[
+  {
+    "title" : "PR & Annonsering",
+    "desc"  : "Med hjälp av riktad markandsföring direkt till studenter på IT-programmet kan ni nå ut med info om exempelvis jobb eller evenemang.",
+    "price" : "1000-2000 SEK beroende på omfattning"
+  },
+  {
+    "title" : "Mingelkväll",
+    "desc"  : "Ett populärt evenemang från både studenter och företags sida för att skapa en närmare och mer personlig kontakt och ha en trevlig kväll tillsammans.",
+    "price" : "Kontakta oss för prisförslag"
+  },
+  {
+    "title" : "Lunchföreläsning",
+    "desc"  : "Evenemanget som alltid lockar många studenter - en möjlighet för er att prata om precis vad ni vill under en lunch inför IT-studenter.",
+    "price" : "10 000 SEK, exkl. mat & dryck"
+  },
+  {
+    "title" : "Monterevent",
+    "desc"  : "Stå en eftermiddag på en strategiskt vald plats med stort genomflöde av studenter och exempelvis presentera ert exjobb - kombineras till fördel med soligt vårväder.",
+    "price" : "Kontakta oss för prisförslag"
+  }
+]

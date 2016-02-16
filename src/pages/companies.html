@@ -22,7 +22,24 @@ title: För företag
       om ni vill nå ut till en större massa och andra är att föredra ifall ni
       vill få en mer personlig kontakt med studenterna.
     </p>
-    <h5>PR &amp; Annonsering</h5>
+    {{#each services}}
+    <div class="callout primary">
+      <h5>{{this.title}}</h5>
+      <p>{{this.desc}}</p>
+      <p><b>Pris: </b>{{this.price}}</p>
+    </div>
+    {{/each}}
+    <div class="callout secondary">
+      <h5>DatE-IT mässan</h5>
+      <p>
+        DatE-IT mässan är en mässa som arrangeras varje år i november av ArmIT och vår motsvarighet på sektionerna för datateknik och elektroteknik. Varje år lockar mässan runt 1000 besökare från IT, D och E-programmen.
+      </p>
+      <a href="http://date-it.se/" target="_blank" class="button">Mer om DatE-IT</a>
+    </div>
+    <h3>Är ni ett startup?</h3>
+    <p>
+      Vi är väldigt måna om att exponera IT-studenter för den fantastiska startup-scen som finns i Sverige och framförallt Göteborg. Är ni ett startup som är intresserade av någon form av samarbete så tveka inte att kontakta oss så vi kan hitta något som passar er situation väl.
+    </p>
   </div>
   <div class="columns large-3 small-12 text-center">
     <i class="fi-mail larger-icon"></i>
